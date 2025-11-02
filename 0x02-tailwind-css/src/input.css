@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Custom media query */
+@media (max-width: 768)
+{
+    main { grid-template-columns: 1fr;}
+}
